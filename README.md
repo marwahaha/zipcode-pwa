@@ -1,4 +1,4 @@
-# vue-zipcode-pwa
+# Vue Zipcode PWA
 
 ## Project planning and how it works
 
