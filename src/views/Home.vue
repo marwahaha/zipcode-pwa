@@ -5,15 +5,16 @@
             <ion-title>ZipApp</ion-title>
          </ion-toolbar>
       </ion-header>
-      <ion-content class="ion-padding">My App</ion-content>
+      <ion-content class="ion-padding">
+         <ZipSearch />
+      </ion-content>
    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
+import ZipSearch from "../components/ZipSearch";
 export default {
    name: "home",
-   components: {}
+   components: { ZipSearch }
 };
 </script>
