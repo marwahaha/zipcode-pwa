@@ -24,12 +24,14 @@ export default {
    },
    methods: {
       onSubmit() {
-         console.log(this.zip);
          // Zip Regex, this will be true or false
          const isValidZip = /(^\d{5}$)|(^\d{5}-\d{4}$)/.test(this.zip);
          if (!isValidZip) {
             this.showAlert();
+            this.zip = "";
          } else {
+            this.$emit("get-zip", this.zip);
+            this.zip = "";
          }
       },
       showAlert() {
