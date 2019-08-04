@@ -4,7 +4,7 @@
 
 It uses a package named Ionic/vue which allows us to use Ionic for the components within our Vue App so we can have this cool mobile look.
 
-For the funnctionality well basicly we can look up information for a zipcode so if we type in 94203 and click find, is going to give us the city, the state, the abreviation, the latitude and the longitude. After that we can clear the information shown to us to make another request.
+For the funnctionality well basicly we can look up information for a zipcode so if we type in 94203 and click find, is going to give us the city, the state, the abbreviation, the latitude and the longitude. After that we can clear the information shown to us to make another request.
 
 The way this functionality can achive this is through a third party API called Zipopotam. It also going to have some error checking with the Ionic modal/alert.
 
